@@ -10,14 +10,18 @@ html {
     height: 100%;
 }
 
-body,
+body {
+    font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
     font-weight: 700;
 }
 
@@ -172,4 +176,12 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+.warsaw-green {
+    color: #4cbc42;
+}
+
+.container.ul {
+    font-weight: normal;
 }
