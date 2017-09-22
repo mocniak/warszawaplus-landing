@@ -75,26 +75,9 @@ h6 {
         font-size: 3em;
     }
 
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
     .intro-divider {
         width: 100%;
     }
-}
-
-.network-name {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
 }
 
 .content-section-a {
@@ -119,15 +102,16 @@ h6 {
 }
 
 .banner {
-    padding: 100px 0;
+    margin: 40px 0;
+    padding: 120px 0 110px;
     color: #f8f8f8;
     background: url(../img/postits.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    margin: -8px 0 15px 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
     font-size: 3em;
 }
 
@@ -135,37 +119,11 @@ h6 {
     margin-bottom: 0;
 }
 
-.banner-social-buttons {
-    float: right;
-    margin-top: 0;
-}
-
-a i.fa {
-    color: #333;
-}
-
-@media (max-width: 1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
-}
-
 @media (max-width: 767px) {
     .banner h2 {
         margin: 0;
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
         font-size: 3em;
-    }
-
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
     }
 }
 
